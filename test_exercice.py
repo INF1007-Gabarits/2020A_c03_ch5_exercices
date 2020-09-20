@@ -12,7 +12,7 @@ import exercice
 class TestExercice(unittest.TestCase):
     def test_prefixes(self):
         output = exercice.use_prefixes()
-        answer = ["Jack", "Kack", "Lack", "Mack", "Nack", "Oack", "Pack", "Qack"]
+        answer = ["Jack", "Kack", "Lack", "Mack", "Nack", "Oack", "Pack"]
 
         self.assertListEqual(
             output,
